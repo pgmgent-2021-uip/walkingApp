@@ -1,0 +1,44 @@
+// .heart {
+// 	animation: beat .25s infinite alternate;
+// 	transform-origin: center;
+// }
+
+/* Heart beat animation */
+
+.hero {
+    height: 40rem;
+    background-image: url("../assets/img/family-walking.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__decoration {
+        width: $half-container;
+        @include fancy-flex;
+
+        &--logo {
+            width: 10rem;
+            transition: all 0.2s ease;
+
+            &:hover {
+                animation: beat 1s infinite alternate;
+                transform-origin: center;
+            }
+        }
+
+        &--icons {
+            width: 13rem;
+            padding: $spacing-sm;
+        }
+
+        h3 {
+            font-weight: 200;
+            margin-bottom: $margin-lg;
+        }
+    }
+
+
+}

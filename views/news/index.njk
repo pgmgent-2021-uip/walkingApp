@@ -1,0 +1,17 @@
+---
+layout: hero-image
+title: News Articles  
+tags:
+subtitle: Here comes all the Artitle! 
+eleventyNavigation:
+    key: news
+    order: 3    
+---
+
+<section class=" news-index">
+    <ul class="news-index__list">
+        {% for article in collections.news %}
+            {% include "_components/news.njk" %}
+        {% endfor %}
+    </ul>
+</section>

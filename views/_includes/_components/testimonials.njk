@@ -1,0 +1,20 @@
+
+{# {% if testimonials | length  %} #}
+    <section class="testimonials">
+        <h2 class="">Testimonials</h2>
+        <ul class="testimonials__list">
+            {% for testimonial in testimonials %}
+                    <li>
+                        <div>
+                            <div class="testimonials__list--item">
+                                <span>{{testimonial.text}}</span>
+                                <span>{{testimonial.author}}</span>
+                            </div>
+                            <div class="testimonials__list--rotate"></div>
+                        </div>
+                        <img src="{{testimonial.img}}" alt="feature image">
+                    </li>
+            {% endfor %}
+        </ul>
+    </section>
+{# {% endif %} #}

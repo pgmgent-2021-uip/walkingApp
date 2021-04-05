@@ -1,0 +1,11 @@
+@keyframes beat {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes stop {
+    to {
+        transform: scale(1);
+    }
+}

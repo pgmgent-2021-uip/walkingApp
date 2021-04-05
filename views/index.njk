@@ -1,0 +1,49 @@
+---
+layout: base
+title: Home
+eleventyNavigation: 
+    key: Home
+    order: 1  
+---
+
+<h1 class="sr-only">My Walking App</h1>
+
+<section class="hero row">
+    {% include "_components/hero.njk" %}
+</section>
+
+{% if collections.features | length %}
+    {% include "_components/features.njk" %}
+{% endif %}
+
+<section class="image-slider ">
+    <h2 class="center">Be Active and Adventurous </h2>
+    {% include "_components/slider.njk" %}
+</section>
+
+<section class="traker-additison">
+        <h2 class="center">Discover Beautiful Trails</h2>
+        <p>Trace-Tracker is your digital guide to the outdoors with downloadable route guides, outdoor maps, and powerful GPS navigation features.</p>
+</section>
+
+{% if testimonials | length  %}
+    {% include "_components/testimonials.njk" %}
+{% endif %}
+
+{% if clients | length  %}
+    {% include "_components/clients.njk" %}
+{% endif %}
+
+{% if collections.news | length  %}
+    <section class=" news-index">
+        <h2 class="center">Our News</h2>
+        <ul class="news-index__list">
+            {% for article in collections.news %}
+                {% if article.data.highlighted %}
+                    {% include "_components/news.njk" %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <a class=" news-index__btn btn primary "href="../news/index.html">View All News</a>
+    </section>
+{% endif %}

@@ -1,0 +1,21 @@
+.wrapper {
+    width: $full-container;
+    max-width: 90rem;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    line-height: 1.8;
+    color: $body-colour;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+a {
+    text-decoration: none;
+}

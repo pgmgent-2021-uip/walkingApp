@@ -1,0 +1,22 @@
+{# {% if collections.features | length %} #}
+    <section class="features ">
+    {# <h2 class="sr-only">Amazing Features</h2> #}
+    {# wanna create it somewhere #}
+            <h2 class="center">Features of our app</h2>
+            <article class="features__content">
+                <img class="features__content--image" src="/assets/img/iphone.png" alt="mobile phone">
+                <ul class="features__content--list">
+                    {% for feature in collections.features  %}
+                            <li class="">
+                                <div class="feature-img">
+                                    <img class="" src="/assets/img/{{ feature.data.image }}.svg" alt="feature icons">
+                                    <strong class="title">{{ feature.data.title }}</strong>
+                                </div>
+                                <p class="">{{ feature.data.text }}</p> 
+                                <a class = "btn--primary primary" href="{{ feature.url }}"> View <span class="sr-only">more details about the</span>Feature </a>                      
+                            </li>
+                    {% endfor %} 
+                </ul>
+            </article>
+    </section>
+{# {% endif %} #}

@@ -1,0 +1,16 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Single_icon" data-name="Single icon">
+    <g id="Placement_Area" data-name="Placement Area" fill="#7dc325" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="70" height="70" stroke="none"/>
+      <rect x="0.5" y="0.5" width="69" height="69" fill="none"/>
+    </g>
+    <g id="Icon">
+      <g id="Frame" fill="#7dc325" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="70" height="70" stroke="none"/>
+        <rect x="0.5" y="0.5" width="69" height="69" fill="none"/>
+      </g>
+      <path id="Shape" d="M35,2A33,33,0,1,0,68,35,33,33,0,0,0,35,2Z" fill="#7dc325"/>
+    </g>
+  </g>
+  <path id="Icon_awesome-map-signs" data-name="Icon awesome-map-signs" d="M35.67,5.955,32.625,2.909a2.25,2.25,0,0,0-1.591-.659H20.25V1.125A1.125,1.125,0,0,0,19.125,0h-2.25A1.125,1.125,0,0,0,15.75,1.125V2.25H3.938A1.688,1.688,0,0,0,2.25,3.938V9.563A1.688,1.688,0,0,0,3.938,11.25h27.1a2.251,2.251,0,0,0,1.591-.659L35.67,7.546A1.125,1.125,0,0,0,35.67,5.955ZM15.75,34.875A1.125,1.125,0,0,0,16.875,36h2.25a1.125,1.125,0,0,0,1.125-1.125V27h-4.5ZM32.063,15.75H20.25V13.5h-4.5v2.25H4.966a2.251,2.251,0,0,0-1.591.659L.33,19.455a1.125,1.125,0,0,0,0,1.591l3.045,3.045a2.25,2.25,0,0,0,1.591.659h27.1a1.688,1.688,0,0,0,1.688-1.687V17.438A1.688,1.688,0,0,0,32.063,15.75Z" transform="translate(17 17)" fill="#fff"/>
+</svg>

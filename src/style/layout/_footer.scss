@@ -1,0 +1,76 @@
+.footer {
+    @include fancy-transition;
+    margin-top: $spacing-lg;
+    font-size: .9rem;
+
+    p,
+    li,
+    a {
+        color: $body-colour;
+    }
+
+    li {
+        line-height: 1.8;
+        cursor: pointer;
+    }
+
+    li:hover,
+    a:hover {
+        color: $primary-colour;
+    }
+
+    &__top {
+        h3 {
+            color: $third-colour;
+        }
+
+        background: $footer-background-colour;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+        column-gap: 3rem;
+        padding: $spacing-m-lg;
+
+        &--logo {
+            img {
+                width: 10rem;
+            }
+
+            p {
+                width: 25rem;
+            }
+
+        }
+
+        &--icons {
+
+            &__items {
+                display: flex;
+
+                svg {
+                    width: 1.5rem;
+                    padding: $spacing-sm;
+                    fill: $primary-colour;
+                    @include fancy-border;
+                    border-radius: $radius-lg;
+                    margin-right: $spacing-sm;
+                }
+
+                svg:hover {
+                    background-color: $primary-colour;
+                    fill: $third-colour;
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        background-color: $footer-base-colour;
+        text-align: center;
+        color: $third-colour;
+        height: 3rem;
+        padding-top: $spacing-m-lg;
+
+    }
+
+
+}

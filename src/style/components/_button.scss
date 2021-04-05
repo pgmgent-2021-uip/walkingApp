@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.primary {
+    border: none;
+    @include fancy-button;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        @include fancy-primary(-2, $primary-colour);
+        background-color: $primary-colour;
+    }
+
+    &:before {
+        @include fancy-primary(-1, darken($primary-colour, 25%));
+        width: 0%;
+        transition: all .3s;
+    }
+
+    &:hover {
+        color: $third-colour;
+
+        &:before {
+            width: $full-container;
+        }
+    }
+}
+
+input.primary {
+    @include fancy-button;
+    @include fancy-border;
+    background-color: $primary-colour;
+}
+
+input.primary:hover {
+    color: $primary-colour;
+    background-color: $third-colour;
+}
+
+.secondary {
+    @include fancy-border;
+    background-color: $primary-colour;
+    border-radius: $radius-md;
+    outline: none;
+    cursor: pointer;
+    @include fancy-transition;
+}
+
+.secondary:hover {
+    scale: 2px;
+}

@@ -1,0 +1,56 @@
+.container-feature {
+    h3 {
+        font-size: $text-lg;
+        color: $subtitle-colour;
+    }
+
+    &__hero {
+        margin: 5rem;
+        padding: $spacing-base;
+        width: $half-container;
+
+        p {
+            margin: $margin-lg auto;
+        }
+
+        &--img {
+            .feature-icons {
+                width: 12rem
+            }
+        }
+    }
+
+    &__main {
+        background-color: $whitish;
+        margin-top: $margin-xxxl;
+        display: flex;
+
+        &--img {
+            width: $extrasmall-container;
+
+            img {
+                width: 15rem;
+                padding: $spacing-m-lg;
+            }
+        }
+
+        &--info {
+            width: 40rem;
+            padding: $spacing-xxl;
+
+
+            .feature-list li {
+                list-style: disc;
+                margin: $margin-base auto $margin-base $margin-xl;
+                color: $body-colour
+            }
+        }
+    }
+
+    &__extra {
+        padding: 5rem;
+        width: 60%;
+        @include main-margin;
+        text-align: center;
+    }
+}

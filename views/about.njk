@@ -1,0 +1,33 @@
+---
+layout: about-contact
+title: About Trace-Tracker 
+eleventyNavigation: 
+    key: About Us
+    order: 2   
+---
+<div class="wrapper wrapper-about">
+    <section class="wrapper-about__history">
+        <h2>Our History</h2>
+        <p>Trace Tracker was founded in 2008 and was an early app pioneer. Ric and Tyrone ran the company from their spare rooms in Eeklo, Belgium, for three years, developing some of the earliest outdoor apps, at that time for Symbian devices. Following the release of the iPhone and App Store they raised seed funding to develop ViewRanger for Apple and Android devices. The company grew consistently until the release of Trace - Tracker 6 in Spring 2015 when the business saw a big leap in its user community. Since then the company enjoyed rapid and sustained growth. </p>
+        <h2 class="wrapper-about__history--title" >Our Mission</h2>
+        <p>To empower and inspire you to live a healthier, more active life. We design products and experiences that fit seamlessly into your life so you can achieve your health and fitness goals, whatever they may be.<p>
+    </section>
+    <section class="wrapper-about__team">
+        <h2>Our Team</h2>
+        <p class="subtext">Trace Tracker is made up of a multinational, active team. Their common ground is their passion for the outdoors. </p>
+        {% if members | length  %}
+            <ul class="wrapper-about__team--members">
+                {% for member in members %}
+                    <li class="wrapper-about__team--members--member">
+                        <img src="{{member.img}}" alt="trace tracker team member">
+                        <div class="member-info">
+                            <strong class="member-info__name">{{member.name}}</strong>
+                            <p class="member-info__position">{{member.position}}</p>
+                            <p>{{member.bio}}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </section>
+</div>

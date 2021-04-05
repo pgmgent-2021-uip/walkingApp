@@ -1,0 +1,46 @@
+---
+layout: base 
+---
+<header class="header-post">
+    {% if img %}
+        <img class="header-post__post--post" src="/assets/img/{{ img }}"  alt="#"/>       
+    {% endif %}  
+</header > 
+
+<div class="post-wrapper">
+    <main class="post-wrapper__main">
+        <div class="post-wrapper__main--top">
+            <img class="" src="/assets/img/member3.jpg" alt="the author Grace Robertson"/>
+            <div>
+                <small class="author">{{ author }} </small>
+                <small class="date" >{{ dateCreated }} - 4 min read</small>
+            </div>
+        </div>
+
+        <hr class="style-six">
+
+        <article class="post-wrapper__main--bottom">
+            {{ content | safe }}
+        </article>
+        <hr class="style-six style-six-extra">
+    </main> 
+    <div class="post-wrapper__aside">
+        {% if collections.news | length %}
+            <section class="container">
+                <h3 class="sr-only">Other articles</h3> 
+                <ul>
+                    {% for article in collections.news %}
+                        {% if article.url !== page.url %}
+                            <li>
+                                <img src="/assets/img/{{ article.data.img }}" alt="news cover image">
+                                <a href="{{ article.url }}">
+                                    {{ article.data.title }}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %} 
+    </div>
+</div> 
