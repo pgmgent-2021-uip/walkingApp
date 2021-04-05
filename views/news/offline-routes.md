@@ -17,6 +17,6 @@ Perhaps you're headed on a stroll in a low-connectivity area? Or just want to sa
 
 Upgrade now for only £1.99 per month and use this handy new feature plus enjoy access to all of our premium routes and offline trails in one.
 
-![download the app for the offline routes](/../assets/img/upgrade.png)
+![download the app for the offline routes](/../assets/img/upgrade.jpg)
 
 Our best premium walking routes selection is continuing to grow. Sneak a peek at a few of our best walk around below or view the full collection in app. Download now on [iOS](#). and [Android](#). or share with family and friends.

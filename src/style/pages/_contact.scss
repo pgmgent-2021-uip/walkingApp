@@ -26,6 +26,10 @@ form {
     margin-bottom: 10rem;
     padding-left: $spacing-base;
     padding-right: $spacing-xl;
+
+    .label-colour {
+        color: $subtitle-colour;
+    }
 }
 
 .contact {
@@ -36,7 +40,8 @@ form {
     }
 
     input,
-    textarea {
+    textarea,
+    input:not(.primary) {
         width: $full-container;
         margin-bottom: $margin-base;
         padding: 0.8rem;
