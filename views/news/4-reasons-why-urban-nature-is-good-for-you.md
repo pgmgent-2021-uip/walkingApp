@@ -28,7 +28,7 @@ Research from Berkley suggests a walk in nature that evokes awe, wonder and beau
 According to Stanford university, creative thinking improves while a person is walking and shortly thereafter. Taking a moment to stop and notice nature can bring about clinically significant improvements in mental wellbeing by reducing rumination, helping with feelings of isolation and producing a cascade of positive emotions such as increased openness, calmness, creativity and resilience. 
 
 
-### 4.**Nature connectedness leads to pro-environmental behaviours.**  
+### 4. **Nature connectedness leads to pro-environmental behaviours.**  
 Science shows that nature connectedness leads to pro-environmental behaviours and engaging in simple nature activities such as stopping to notice the birdsong, blueberry picking, catching fallen leaves or making a homemade bee hotel “emerged as the largest significant contributor to pro‐nature conservation behaviour.” 
 
 <div class="imgs">

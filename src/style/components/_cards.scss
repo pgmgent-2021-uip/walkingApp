@@ -1,0 +1,22 @@
+.card {
+    &__img {
+        width: 10rem;
+        padding: 0.3rem;
+        border-radius: $radius-lg;
+        margin-bottom: $margin-base;
+    }
+
+    &__info {
+        width: 25rem;
+        text-align: center;
+
+        &--name {
+            color: $title-colour;
+        }
+
+        &--position {
+            font-style: italic;
+            color: $sm-text-colour;
+        }
+    }
+}

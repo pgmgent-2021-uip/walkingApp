@@ -11,7 +11,7 @@ dateCreated: "10 Mar, 2021"
 
 ## 3 things to bring on your next walk
 
-### **Your imagination**
+### 1. **Your imagination**
 
 It's a wonderful thing childhood, imagining yourself as a pirate, playing football like a crab or answering life's serious questions, I mean 'What *would* you wish for if a genie were to grant you three wishes?'
 
@@ -25,7 +25,7 @@ Next time you take a stroll, go get all your silliness out of your system. Stop 
 
 The new look for Autumn/Winter 2021
 
-### **A sense of adventure**
+### 2. **A sense of adventure**
 
 The same breakfast everyday, the same commute, seeing the same faces. When your every day becomes regimented the resulting boredom can be a problem.
 
@@ -44,7 +44,7 @@ Look for the highest point with the best view or the most mysterious tree, stop 
     </figure>
 </div>
 
-### **An appreciation of nature**
+### 3. **An appreciation of nature**
 
 The feeling you get when you are around nature is unexplainable by science, it comes deep from within and allows us to deal with life's stresses. So it's important we work hard to preserve and appreciate it. To do this it is important to consider our attitude towards nature and our place within it.
 

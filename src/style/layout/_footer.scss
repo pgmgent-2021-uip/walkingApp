@@ -41,26 +41,7 @@
 
         }
 
-        &--icons {
-
-            &__items {
-                display: flex;
-
-                svg {
-                    width: 1.5rem;
-                    padding: $spacing-sm;
-                    fill: $primary-colour;
-                    @include fancy-border;
-                    border-radius: $radius-lg;
-                    margin-right: $spacing-sm;
-                }
-
-                svg:hover {
-                    background-color: $primary-colour;
-                    fill: $third-colour;
-                }
-            }
-        }
+        &--icons {}
     }
 
     &__bottom {

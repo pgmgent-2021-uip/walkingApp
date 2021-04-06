@@ -4,17 +4,20 @@
         <h2 class="">Testimonials</h2>
         <ul class="testimonials__list">
             {% for testimonial in testimonials %}
-                    <li>
-                        <div>
-                            <div class="testimonials__list--item">
+                <li>
+                    <figure>
+                        <div class="testimonials__list--item">
+                            <blockquote>
                                 <span>{{testimonial.text}}</span>
-                                <span>{{testimonial.author}}</span>
-                            </div>
-                            <div class="testimonials__list--rotate"></div>
+                            </blockquote>
+                            <figcaption>{{testimonial.author}}</figcaption>
                         </div>
-                        <img src="{{testimonial.img}}" alt="feature image">
-                    </li>
+                        <div class="testimonials__list--rotate"></div>
+                    </figure>
+                    <img src="{{testimonial.img}}" alt="feature image">
+                </li>
             {% endfor %}
         </ul>
     </section>
 {# {% endif %} #}
+

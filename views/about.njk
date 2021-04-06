@@ -18,14 +18,7 @@ eleventyNavigation:
         {% if members | length  %}
             <ul class="wrapper-about__team--members">
                 {% for member in members %}
-                    <li class="wrapper-about__team--members--member">
-                        <img src="{{member.img}}" alt="trace tracker team member">
-                        <div class="member-info">
-                            <strong class="member-info__name">{{member.name}}</strong>
-                            <p class="member-info__position">{{member.position}}</p>
-                            <p>{{member.bio}}</p>
-                        </div>
-                    </li>
+                    {% include "_components/cards.njk" %}
                 {% endfor %}
             </ul>
         {% endif %}

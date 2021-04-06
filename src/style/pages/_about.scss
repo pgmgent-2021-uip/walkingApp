@@ -37,28 +37,6 @@
                 flex-basis: 23rem;
                 border: solid 2px $body-colour;
                 margin-bottom: $margin-lg;
-
-                img {
-                    width: 10rem;
-                    padding: 0.3rem;
-                    border-radius: $radius-lg;
-                    margin-bottom: $margin-base;
-                }
-
-                .member-info {
-                    width: 25rem;
-                    text-align: center;
-
-                    &__name {
-                        color: $title-colour;
-                    }
-
-                    &__position {
-                        font-style: italic;
-                        color: $sm-text-colour;
-                    }
-                }
-
             }
         }
 

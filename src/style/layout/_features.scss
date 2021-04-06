@@ -14,6 +14,7 @@
         padding-bottom: 0.6rem;
     }
 
+
     &__content {
         display: grid;
         grid-template-columns: 0.9fr 1.5fr;
@@ -39,6 +40,10 @@
             }
 
             li {
+                a {
+                    margin-bottom: 3rem;
+                }
+
                 padding: $spacing-m-lg;
                 flex-basis: 20rem;
 
