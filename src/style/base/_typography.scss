@@ -31,5 +31,5 @@ h2 {
     @include fancy-text($text-sm);
     display: block;
     margin-bottom: $spacing-sm;
-    color: $gray;
+    color: $gray-colour;
 }
