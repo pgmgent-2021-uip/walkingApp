@@ -48,11 +48,11 @@
                 margin: auto $margin-base;
                 display: flex;
                 align-items: center;
-                color: green;
+                color: $extra-colour-button;
                 font-weight: $large;
                 font-size: $text-base;
                 transition: all 0.3s easy;
-                animation: beat 1.5s infinite alternate;
+                animation: beat 1.2s infinite alternate;
                 transform-origin: center;
                 overflow: hidden;
 
@@ -64,8 +64,7 @@
 
             .arrow:hover {
                 transition: all 0.3s easy;
-                animation: stop;
-                //box-shadow: -1px 5px 21px 0px rgba(0, 0, 0, 0.75);
+                animation-play-state: paused;
             }
         }
     }
