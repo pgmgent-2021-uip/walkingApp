@@ -1,0 +1,62 @@
+.testimonials {
+    background-color: rgb(144, 187, 57);
+    padding: $spacing-xxxxl 0;
+
+    h2 {
+        text-transform: uppercase;
+        color: $third-colour;
+        text-align: center;
+        padding-bottom: $spacing-xl;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+
+        li {
+            margin: $margin-base;
+            flex-basis: 25%;
+            @include fancy-flex;
+
+            img {
+                width: $margin-xxxl;
+                border-radius: $radius-lg;
+            }
+        }
+
+        @include fancy-blockquote($third-colour, $text-base);
+
+        blockquote {
+            margin: 0;
+            padding: 0;
+        }
+
+        figcaption {
+            padding-top: 1.5rem;
+            font-weight: 600;
+        }
+
+        &--item {
+            @include fancy-flex;
+            color: $third-colour;
+            @include fancy-border;
+            border-color: $third-colour;
+            padding: $spacing-m-lg;
+            border-radius: $radius-base;
+            background-color: rgba(255, 255, 255, 0.192);
+        }
+
+        &--rotate {
+            height: 2rem;
+            width: 2rem;
+            @include fancy-border;
+            border-color: $third-colour;
+            border-top: none;
+            border-right: none;
+            z-index: 10;
+            transform: translate(10rem, -1rem) rotate(45deg);
+            background-color: rgba(255, 255, 255, 0.192);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.image-slider {
+    &__list {
+        display: flex;
+
+        &--item {
+            flex-basis: $half-container;
+        }
+    }
+}
+
+.traker-additison {
+    text-align: center;
+    margin-bottom: $margin-xxxl;
+
+    h2 {
+        margin-bottom: $margin-lg;
+    }
+
+    p {
+        display: inline-block;
+        text-align: center;
+
+        width: $half-container;
+        line-height: 1.5;
+    }
+}

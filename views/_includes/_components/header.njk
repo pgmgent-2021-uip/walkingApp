@@ -1,0 +1,26 @@
+ {% set navPages = collections.all | eleventyNavigation %}  
+
+<header>
+    <nav class="navbar">
+        <a href="/../index.html" class="navbar__logo">
+            <img src="/assets/img/logotext.svg" alt="trace traker"/>
+        </a>
+
+        <ul class="navbar__list">
+            {% for navItem in navPages %}
+              <li>
+                    <a href="{{ navItem.url }}">
+                        {% if page.url === navItem.url %} 
+                            <strong aria-current="page">
+                                {{ navItem.title }}
+                            </strong>
+                        {% else %}
+                            {{ navItem.title }}
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+                <li><a href="https://play.google.com" target="_blank" class=" arrow secondary"><img src="/assets/img/arrow.svg" alt="pointing down arrow"><span>Download <span class="sr-only">trace tracker app</span> Now </span></a></li>
+        </ul>
+    </nav>
+</header>

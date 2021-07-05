@@ -1,0 +1,44 @@
+.wrapper-about {
+
+    @include fancy-flex;
+    line-height: $spacing-md;
+
+    &__history {
+        width: 65%;
+        text-align: center;
+        margin-top: $margin-xxxl;
+        margin-bottom: 8rem;
+
+        p {
+            margin-top: $margin-xl;
+            line-height: 1.7;
+        }
+
+        &--title {
+            margin-top: $margin-xxxl;
+        }
+    }
+
+    &__team {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        background-color: $whitish;
+        padding: $spacing-xxxxl $spacing-m-lg;
+
+        &--members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &--member {
+                @include fancy-flex;
+                padding: $spacing-base;
+                flex-basis: 23rem;
+                border: solid 2px $body-colour;
+                margin-bottom: $margin-lg;
+            }
+        }
+
+    }
+}

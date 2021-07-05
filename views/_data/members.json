@@ -1,0 +1,45 @@
+[
+    {
+ 
+        "img": "/assets/img/member1.jpg",
+        "name": "Ric Bell",
+        "position":"CEO, President & Co-founder",
+        "bio": "Ric founded the company, leads the business and marketing efforts, and still hacks on the front-end code. He also worked as a copywriter for Elias/Savion Advertising, on a portfolio of tech companies. Ric received a B.S. in business from UGent in 2003."
+    },
+    {
+ 
+        "img": "/assets/img/member2.jpg",
+        "name": "Tyrone Wood",
+        "position":"Co-founder",
+        "bio": "Tyrone founded the company, architected Trailbehind systems, and has been one of the primary developers on nearly all projects. Before that, Tyrone worked at Google and Silicon Age as a software engineer. Tyrone earned degrees in computer engineering, graduating with honours in 2005."
+    },
+    {
+ 
+        "img": "/assets/img/member3.jpg",
+        "name": "Sipho Harper",
+        "position":"Software / DevOps Engineer",
+        "bio": "Sipho combines an equal love of the outdoors, snow, and computers. He developed large swaths of the Trace Tracker apps, map servers, and infrastructure. Sipho Harper joined on in 2012, and played such a pivotal role within the Trace Tracker company."
+    }, 
+    {
+ 
+        "img": "/assets/img/member4.jpg",
+        "name": "Grace Robertson ",
+        "position":"Community and Support Coordinator",
+        "bio": "Grace fell in love with hiking and backpacking while working-abroad in Ireland & Scotland. Previously, Grace worked as a librarian, teaching technology classes, and a metadata specialist at OverDrive in Cleveland. She holds degrees in library science and English."
+    },
+    {
+ 
+        "img": "/assets/img/member5.jpg",
+        "name": "Jackie S. Jones ",
+        "position":"Cartographer ",
+        "bio": "Jackie joined Trace Tracker in March of 2019 as the company's cartographer focusing on the map design of Trace Tracker. She began her career as a cartographer for National Geographic and eventually moving into a focus on mobile and interactive map design."
+    },
+    {
+ 
+        "img": "/assets/img/member6.jpg",
+        "name": "Lucy F. Jones ",
+        "position":"Multimedia Designer",
+        "bio": "Lucy is a Multimedia Designer at Trace Tracker. Prior to working at Trace Tracker, Lucy worked as a Multimedia Producer at Gear Patrol, creating short-form video content while helping to shape Gear Patrol’s video offerings. Lucy has a B.S. in Multimedia."
+    }
+  
+]

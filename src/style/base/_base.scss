@@ -1,0 +1,20 @@
+.wrapper {
+    @include main-margin;
+    width: $medium-container;
+    max-width: $full-container;
+}
+
+img {
+    width: $full-container;
+}
+
+figure {
+    margin: 0;
+}
+
+h2.center {
+    text-align: center;
+    color: $title-colour;
+    text-transform: uppercase;
+    @include fancy-margin;
+}

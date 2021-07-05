@@ -1,0 +1,38 @@
+
+        <footer class="footer">
+            <article class="footer__top">
+                <div class="footer__top--logo">
+                    <a href="/../index.html">
+                        <img src="/assets/img/logotext.svg" alt="trace tracker">
+                    </a>
+                    <p>Enjoy your walks and adventures with Trace-Tracker. Organise the trail you like and share it with your friends. </p>
+                    <a href="https://www.apple.com/" target="_blank"><img class="hero__decoration--icons" src="/assets/img/appstore.png" alt="appstore"></a>
+                    <a href="https://play.google.com" target="_blank"><img class="hero__decoration--icons" src="/assets/img/googleplay.png" alt="googleplay"></a>
+                </div>
+                <div class="footer__top--info">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Support</li>
+                        <li>DNA FAQ</li>
+                        <li>Cookie policy</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                 <div class="footer__top--info">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li> <a href="/../index.html">Home</a> </li>
+                        <li> <a href="#">About Us</a> </li>
+                        <li> <a href="#">News</a> </li>
+                        <li> <a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top--icons">
+                    <h3>Stay Connected</h3>
+                   {% include "_components/icons.njk" %}
+                </div>
+            </article>
+            <article class="footer__bottom">
+                Copyright {{ helpers.currentYear() }} @ Thabisa Dingani
+            </article>
+        </footer>

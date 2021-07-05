@@ -1,0 +1,57 @@
+.footer {
+    @include fancy-transition;
+    margin-top: $spacing-lg;
+    font-size: .9rem;
+
+    p,
+    li,
+    a {
+        color: $body-colour;
+    }
+
+    li {
+        line-height: 1.8;
+        cursor: pointer;
+    }
+
+    li:hover,
+    a:hover {
+        color: $primary-colour;
+    }
+
+    &__top {
+        h3 {
+            color: $third-colour;
+        }
+
+        background: $footer-background-colour;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+        column-gap: 3rem;
+        padding: $spacing-m-lg;
+
+        &--logo {
+            img {
+                width: 10rem;
+            }
+
+            p {
+                width: 25rem;
+            }
+
+        }
+
+        &--icons {}
+    }
+
+    &__bottom {
+        background-color: $footer-base-colour;
+        text-align: center;
+        color: $third-colour;
+        height: 3rem;
+        padding-top: $spacing-m-lg;
+
+    }
+
+
+}

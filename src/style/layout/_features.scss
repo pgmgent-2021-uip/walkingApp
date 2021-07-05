@@ -1,0 +1,71 @@
+.header-feature {
+    background-image: url("../assets/img/walking-people.jpg");
+    @include background-control;
+}
+
+.features {
+    .title {
+        color: $title-colour
+    }
+
+    text-align: center;
+
+    p {
+        padding-bottom: 0.6rem;
+    }
+
+
+    &__content {
+        display: grid;
+        grid-template-columns: 0.9fr 1.5fr;
+        grid-template-areas:
+            "first second";
+        column-gap: 4rem;
+
+        &--image {
+            width: 22rem;
+            grid-area: first;
+            justify-self: flex-end;
+            align-self: center;
+        }
+
+        &--list {
+            grid-area: second;
+            display: flex;
+            flex-wrap: wrap;
+
+            img,
+            svg {
+                width: 5rem;
+            }
+
+            li {
+                a {
+                    margin-bottom: 3rem;
+                }
+
+                padding: $spacing-m-lg;
+                flex-basis: 20rem;
+
+                div {
+                    @include fancy-flex;
+
+                    strong {
+                        padding-top: $spacing-base;
+                        font-size: $text-md;
+                    }
+                }
+            }
+
+            li:nth-child(1),
+            li:nth-child(3) {
+                border-right: $sm-text-colour dotted 1px;
+            }
+
+            li:nth-child(1),
+            li:nth-child(2) {
+                border-bottom: $sm-text-colour dotted 1px;
+            }
+        }
+    }
+}

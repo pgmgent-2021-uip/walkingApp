@@ -1,0 +1,71 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    @include fancy-transition;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $medium-container;
+    @include main-margin;
+
+    .navbar__logo {
+        margin: $margin-lg $margin-base;
+        width: 13rem;
+    }
+
+    .navbar__list {
+        list-style: none;
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+
+        li {
+
+            strong {
+                padding-bottom: $spacing-sm;
+            }
+
+            a:not(.arrow) {
+                font-family: "Lato";
+                @include fancy-text($text-sm);
+                font-size: $text-base;
+                color: $primary-colour;
+                margin: $margin-base;
+                padding-bottom: $spacing-sm;
+                font-weight: bold;
+                transition: all 0.2s ease-in-out;
+
+                &:hover,
+                [aria-current=page] {
+                    color: $primary-colour;
+                    border-bottom: $primary-colour 4px solid;
+                }
+            }
+
+            .arrow {
+                width: 12rem;
+                margin: auto $margin-base;
+                display: flex;
+                align-items: center;
+                color: $extra-colour-button;
+                font-weight: $large;
+                font-size: $text-base;
+                transition: all 0.3s easy;
+                animation: beat 1.2s infinite alternate;
+                transform-origin: center;
+                overflow: hidden;
+
+                img {
+                    width: 1.5rem;
+                    padding: $spacing-sm;
+                }
+            }
+
+            .arrow:hover {
+                transition: all 0.3s easy;
+                animation-play-state: paused;
+            }
+        }
+    }
+}
