@@ -4,6 +4,7 @@ img: "display.jfif"
 highlighted: true
 text: "Trace-Tracker is a health and wellness company working to increase walking, nature connection and outdoor adventures. We are a small team looking for an amazing intern member. "
 author: Grace Robertson
+root: ../../
 dateCreated: "29 Jun, 2021"
 ---
 

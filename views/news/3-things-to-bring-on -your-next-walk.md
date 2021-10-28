@@ -5,6 +5,7 @@ img: "routes.jpg"
 highlighted: true
 text: "It's a wonderful thing childhood, imagining yourself as a pirate, playing football like a crab or answering life's serious questions, I mean 'What *would* you wish for if a genie were to grant you three wishes?"
 author: Grace Robertson
+root: ../../
 dateCreated: "10 Mar, 2021"
 ---
 
@@ -21,7 +22,7 @@ So it's important now and again to not forget the little imaginative person you 
 
 Next time you take a stroll, go get all your silliness out of your system. Stop thinking like a grown up, kick some leaves in the air (like you just don't care) and start reconnecting with your imaginative former self.
 
-![The new look Autumn/Winter 2021](/../assets/img/the-view.jpg)
+![The new look Autumn/Winter 2021]({{ root }}assets/img/the-view.jpg)
 
 The new look for Autumn/Winter 2021
 
@@ -35,11 +36,11 @@ Look for the highest point with the best view or the most mysterious tree, stop 
 
 <div class="imgs">
     <figure>
-        <img src="/../assets/img/landingPage.jpg" alt="mountains winter"/>
+        <img src="{{ root }}assets/img/landingPage.jpg" alt="mountains winter"/>
         <figcaption>The mountains, Winter 2021.</figcaption>
     </figure>
     <figure>
-        <img src="/../assets/img/forests.png" alt="trees spring"/>
+        <img src="{{ root }}assets/img/forests.png" alt="trees spring"/>
         <figcaption>The forest, Spring 2021</figcaption>
     </figure>
 </div>

@@ -3,6 +3,7 @@ title: Download best walking routes for offline use
 img: "off-road.jpg"
 text: "As part of the premium subscription, you can now download any walking route to use offline - at no extra cost! "
 author: Grace Robertson
+root: ../../
 dateCreated: "20 Feb, 2021"
 ---
 
@@ -17,6 +18,6 @@ Perhaps you're headed on a stroll in a low-connectivity area? Or just want to sa
 
 Upgrade now for only £1.99 per month and use this handy new feature plus enjoy access to all of our premium routes and offline trails in one.
 
-![download the app for the offline routes](/../assets/img/upgrade.jpg)
+![download the app for the offline routes]({{ root }}assets/img/upgrade.jpg)
 
 Our best premium walking routes selection is continuing to grow. Sneak a peek at a few of our best walk around below or view the full collection in app. Download now on [iOS](#). and [Android](#). or share with family and friends.

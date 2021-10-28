@@ -4,7 +4,7 @@
         <ul class="clients__list">
             {% for client in clients %}
                     <li class="clients__list--item">
-                        <img src="{{client.img}}" alt="clients logo">
+                        <img src="{{root}}{{client.img}}" alt="clients logo">
                     </li>
             {% endfor %}
         </ul>

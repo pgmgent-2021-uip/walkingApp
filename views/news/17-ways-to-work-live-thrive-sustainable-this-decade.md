@@ -3,6 +3,7 @@ title: 17 ways to work, live and thrive sustainably this decade
 img: "UNSDG.png"
 text: "The 17 goals address the global challenges we currently face. In a world where global issues can seem overwhelming, one solution is to think local and act local. Here are some cool organisations, products and services that are championing the UN’s SDG’s which you could support. "
 author: Grace Robertson
+root: ../../
 dateCreated: "08 Dec, 2019"
 ---
 

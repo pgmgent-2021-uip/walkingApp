@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Home
+root: ./
 eleventyNavigation: 
     key: Home
     order: 1  
@@ -44,6 +45,6 @@ eleventyNavigation:
                 {% endif %}
             {% endfor %}
         </ul>
-        <a class=" news-index__btn btn primary "href="../news/index.html">View All News</a>
+        <a class=" news-index__btn btn primary "href="/walkingApp/{{root}}news/index.html">View All News</a>
     </section>
 {% endif %}

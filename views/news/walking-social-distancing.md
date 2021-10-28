@@ -4,6 +4,7 @@ img: "distance.jpg"
 highlighted: true
 text: "Enjoy the outdoors sensibly and follow the national rules that apply in your location. Stay local, visit a new local green space to mix it up or go for a longer walk around your neighbourhood."
 author: Grace Robertson
+root: ../../
 dateCreated: "13 Jan, 2021"
 ---
 
@@ -21,11 +22,11 @@ From our perspective, our advice is to please enjoy the outdoors sensibly and fo
 
 <div class="imgs">
     <figure>
-        <img src="/../assets/img/covid.jfif" alt="Covid measures"/>
+        <img src="{{ root }}assets/img/covid.jfif" alt="Covid measures"/>
         <figcaption>Covid measures.</figcaption>
     </figure>
      <figure>
-        <img src="/../assets/img/grassland.jpg" alt="a chair"/>
+        <img src="{{ root }}assets/img/grassland.jpg" alt="a chair"/>
         <figcaption>Isolate.</figcaption>
     </figure>
 </div>

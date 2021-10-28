@@ -3,6 +3,7 @@ title: 4 Reasons Why Urban Nature is Good for You
 img: "BoyWalkingInNature.jpg"
 text: "The evidence is clear, nature is good for you. That’s why together with our friends at Palmolive, we have launched new walks in Stockholm to help you get the most nature out of the city."
 author: Grace Robertson
+root: ../../
 dateCreated: " 02 May, 2020"
 ---
 
@@ -33,11 +34,11 @@ Science shows that nature connectedness leads to pro-environmental behaviours an
 
 <div class="imgs">
     <figure>
-        <img src="/../assets/img/drew.jpg" alt="The walking trail Ghent"/>
+        <img src="{{ root }}assets/img/drew.jpg" alt="The walking trail Ghent"/>
         <figcaption>The walking trail, Ghent.</figcaption>
     </figure>
     <figure>
-        <img src="/../assets/img/kids.jpeg" alt="The open space Brugge"/>
+        <img src="{{ root }}assets/img/kids.jpeg" alt="The open space Brugge"/>
         <figcaption>The open space, Brugge</figcaption>
     </figure>
 </div>

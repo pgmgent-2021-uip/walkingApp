@@ -2,14 +2,14 @@
 
 <header>
     <nav class="navbar">
-        <a href="/../index.html" class="navbar__logo">
-            <img src="/assets/img/logotext.svg" alt="trace traker"/>
+        <a href="/walkingApp/{{root}}index.html" class="navbar__logo">
+            <img src="{{ root }}assets/img/logotext.svg" alt="trace traker"/>
         </a>
 
         <ul class="navbar__list">
             {% for navItem in navPages %}
               <li>
-                    <a href="{{ navItem.url }}">
+                    <a href="/walkingApp{{ navItem.url }}">
                         {% if page.url === navItem.url %} 
                             <strong aria-current="page">
                                 {{ navItem.title }}
@@ -20,7 +20,7 @@
                     </a>
                 </li>
             {% endfor %}
-                <li><a href="https://play.google.com" target="_blank" class=" arrow secondary"><img src="/assets/img/arrow.svg" alt="pointing down arrow"><span>Download <span class="sr-only">trace tracker app</span> Now </span></a></li>
+                <li><a href="https://play.google.com" target="_blank" class=" arrow secondary"><img src="{{ root }}assets/img/arrow.svg" alt="pointing down arrow"><span>Download <span class="sr-only">trace tracker app</span> Now </span></a></li>
         </ul>
     </nav>
 </header>
