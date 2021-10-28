@@ -10,7 +10,7 @@
     "watch:dev": "npm run dev",
     "watch:sass": "npm run sass -- --watch",
     "start": "npm-run-all sass --parallel watch:*",
-    "build": "npm run eleventy --pathPrefix 'walkingApp'"
+    "build": "npm run sass && npm run eleventy --pathprefix 'walkingApp'"
   },
   "repository": {
     "type": "git",
