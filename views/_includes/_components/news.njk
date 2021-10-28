@@ -2,11 +2,11 @@
 <li class="news-index__list--item">
     <img src="{{ root }}assets/img/{{ article.data.img }}" alt=" news article cover image">
     <div class="item-container">
-        <a class="item-container--title"  href="/walkingApp/{{root}}{{ article.url }}">
+        <a class="item-container--title"  href="{{ article.url }}">
             <h3>{{ article.data.title }}</h3>
         </a>
         <p class=" item-container--date lightText">{{ article.data.author }} | {{ article.data.dateCreated }}</p>
         <p class="item-container--text" >{{ article.data.text }}</p>
-        <a class="item-container--link" href="/walkingApp/{{root}}{{ article.url }}">Read more<span class="sr-only">about the post</span></a>
+        <a class="item-container--link" href="{{ article.url }}">Read more<span class="sr-only">about the post</span></a>
     </div>
 </li>
